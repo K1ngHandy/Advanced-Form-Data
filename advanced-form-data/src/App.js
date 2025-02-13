@@ -13,7 +13,7 @@ function App() {
 
     setFormData({
       ...formData,
-      [name]: type == "checkbox" ? checked : value,
+      [name]: type === "checkbox" ? checked : value,
     });
   };
 
